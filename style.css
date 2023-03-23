@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'League Spartan', sans-serif;
+}
+main{
+    width: 80%;
+    height: 80vh;
+    position: absolute;
+    top: 10vh;
+    left: 10%;
+}
+.information{
+    height: 50%;
+    display: flex;
+}
+.info-text{
+    width: 50%;
+}
+.heading{
+    width: 55%;
+    font-size: 45px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    margin-bottom: 30px;
+}
+.info-text p {
+    width: 84%;
+    color: hsl(303, 10%, 53%);
+    font-size: 20px;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 20px;
+}
+.item1, 
+.item2,
+.item3{
+    color: hsl(300, 43%, 22%);
+    background-color: hsl(300, 24%, 96%);
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin: 5px;
+    display: flex;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.item1{
+    align-self: flex-start;
+}
+.item2{
+    align-self: center;
+}
+.item3{
+    align-self: flex-end;
+}
+.stars{
+    margin-right: 35px;
+}
+.cards{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    
+}
+.card-1,
+.card-2,
+.card-3{
+    width: 30%;
+    padding: 30px;
+    background-color: hsl(300, 43%, 22%);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-right: 25px;
+}
+
+.card-1 img, .card-2 img, .card-3 img{
+    width: 50px;
+    border-radius: 50%;
+}
+.card-1{
+    align-self: flex-start;
+}
+.card-2{
+    align-self: center;
+}
+.card-3{
+    align-self: flex-end;
+}
+.img{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.img_text{
+    display: flex;
+    margin-left: 15px;
+    flex-direction: column;
+}
+.img_text p{
+    color:hsl(333, 80%, 67%) ;
+    margin-top: 5px;
+}
+.text p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
